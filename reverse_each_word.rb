@@ -4,7 +4,7 @@ def reverse_each_word(string)
     if word.index != - 1 
       "#{word.reverse} "
     else 
-      
+      "#{word.reverse}"
     end 
   end
   reversed_string = final_array.join
